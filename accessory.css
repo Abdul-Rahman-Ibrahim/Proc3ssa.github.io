@@ -1,0 +1,106 @@
+*{
+    margin:0;
+}
+body{
+    background-color: rgb(236, 240, 240);
+}
+section{
+    margin:50px auto 10px;
+    border:1px solid red;
+
+    
+}
+
+.title{
+    border:1px solid rgb(231, 227, 227);
+    background-color: rgb(241, 245, 245);
+    width:400px;
+    border-radius: 10px;
+    box-shadow: 1px 7px 17px rgb(158, 158, 158);
+    padding:5px;
+    align-items: center;
+}
+section .phone img{
+   
+}
+.title h1{
+    text-align: center;
+}
+header{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+    background-color: white;
+    padding:20px;
+    box-shadow: 1px 4px 6px gray;
+    position: fixed;
+    top:0%;
+}
+.search{
+    margin-top: 8px;
+}
+input[type='search']{
+    width:190px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:gray;
+}
+button{
+    width:100px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(11, 108, 165);
+    color:white;
+}
+.accessory{
+    width:350px;
+    border:1px solid white;
+    box-shadow: 1px 4px 6px rgb(155, 154, 154);
+    margin-top: 70px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px; 
+    display:flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    float:left;
+    
+}
+.accessory #img{
+    
+    width:50%;
+    height:199px;
+    float: right;
+}
+.accessory #img img{
+    height:200px;
+   
+}
+#info{
+    width:50%;
+    justify-items: center;
+    
+
+}
+#info h3{
+    text-align: center;
+    color:black;
+}
+#info p{
+    color:green;
+    text-align: center;
+}
+#info h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 800px;
+
+}
+footer p{
+    font-size: smaller;
+}
